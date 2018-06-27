@@ -1,0 +1,27 @@
+{
+	"name":"lxrmido/freya",
+    "description": "a framework with ∆",
+    "keywords": ["framework", "∆"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+		"smarty/smarty": "^3.1",
+		"swiftmailer/swiftmailer" : "v5.4.4",
+		"illuminate/database": "^5.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "Lib\\": "lib/",
+            "Tpl\\": "tpl/",
+            "Controller\\": "controllers/",
+            "Model\\": "model/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
